@@ -1,6 +1,10 @@
-package svr2
+package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/ethanvc/testgolanglint/svr2/util"
+)
 
 func main() {
 	m := make(map[string]string)
@@ -8,5 +12,5 @@ func main() {
 		fmt.Println(k)
 	}
 	fmt.Println("svr2, hello world")
-	f()
+	util.Func()
 }
