@@ -8,4 +8,5 @@ func main() {
 		fmt.Println(k)
 	}
 	fmt.Println("svr2, hello world")
+	f()
 }
